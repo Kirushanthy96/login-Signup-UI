@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kirushanthy.helpingsystemtosetu"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\e630db3d4481f4ebc6ce8dcd75d1c80d\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
+17-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\e630db3d4481f4ebc6ce8dcd75d1c80d\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:22-76
+18    <!--
+19 io.flutter.app.FlutterApplication is an android.app.Application that
+20         calls FlutterMain.startInitialization(this); in its onCreate method.
+21         In most cases you can leave this as-is, but you if you want to provide
+22         additional functionality it is fine to subclass or reimplement
+23         FlutterApplication and put your custom class here.
+24    -->
+25    <application
+25-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:9:5-32:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:10:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:12:9-43
+30        android:label="helpingsystemtosetu" >
+30-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:11:9-44
+31        <activity
+31-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:13:9-31:20
+32            android:name="kirushanthy.helpingsystemtosetu.MainActivity"
+32-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:14:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:17:13-144
+34            android:hardwareAccelerated="true"
+34-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:18:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:15:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:16:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:19:13-55
+38
+39            <!--
+40                 This keeps the window background of the activity showing
+41                 until Flutter renders its first frame. It can be removed if
+42                 there is no splash screen (such as the default splash screen
+43                 defined in @style/LaunchTheme).
+44            -->
+45            <meta-data
+45-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:24:13-26:40
+46                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+46-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:25:17-82
+47                android:value="true" />
+47-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:26:17-37
+48
+49            <intent-filter>
+49-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:27:13-30:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:28:17-68
+50-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:28:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:29:17-76
+52-->C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\android\app\src\main\AndroidManifest.xml:29:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+57            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+57-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+58            android:authorities="kirushanthy.helpingsystemtosetu.flutter.image_provider"
+58-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+59            android:exported="false"
+59-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+60            android:grantUriPermissions="true" >
+60-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+61            <meta-data
+61-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+63                android:resource="@xml/flutter_image_picker_file_paths" />
+63-->[:image_picker] C:\Users\acer\AndroidStudioProjects\helping_system_to_setu\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+64        </provider>
+65    </application>
+66
+67</manifest>
